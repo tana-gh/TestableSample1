@@ -25,7 +25,7 @@ namespace TestableSample1.App
                 {
                     Console.WriteLine($"{str} : bool");
                 }
-                else if (Regex.IsMatch(str, @"^[0-9]+(\.[0-9]+)?$"))
+                else if (Regex.IsMatch(str, @"^-?[0-9]+(\.[0-9]+)?$"))
                 {
                     Console.WriteLine($"{str} : number");
                 }
